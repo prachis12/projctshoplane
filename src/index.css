@@ -1,0 +1,238 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbarComp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.shopWord {
+  font-size: 40px;
+  color: #007ba1;
+}
+
+.navbarRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.dropDownBtn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px 10px;
+  border: solid;
+}
+
+.dropDownBtnContent {
+  display: flex;
+  align-items: center;
+}
+
+.loginSignUp {
+  display: flex;
+  flex-direction: column;
+}
+
+.orSiUp {
+  font-size: 10px;
+  padding-left: 10px;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mainCartIcon {
+  cursor: pointer;
+}
+
+.navbarCartDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.cartLengthDiv {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10rem;
+  margin-left: -1rem;
+  margin-bottom: 1.8rem;
+}
+.cartLengthSpan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+  border-radius: 20rem;
+  padding: 0.2rem 0.55rem;
+}
+
+.categoryNames {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border: solid rgba(128, 128, 128, 0.269);
+  background-color: rgba(128, 128, 128, 0.162);
+}
+
+.eachCategoryName {
+  color: rgba(0, 0, 0, 0.65);
+  text-decoration: none;
+}
+
+.allProductsRow {
+  margin: 1rem 6rem;
+}
+.productHeartDivContainer {
+  display: flex;
+  justify-content: end;
+}
+
+.productHeart {
+  font-size: 30px;
+}
+
+.heartColor {
+  color: red;
+}
+
+.imageContainingDiv {
+  height: 60%;
+  overflow: hidden;
+}
+
+.allProductTitle {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.starsIcon {
+  color: rgba(183, 119, 0, 0.774);
+}
+
+.productDetailDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 2rem;
+}
+
+.productDetailImageDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 30rem;
+  margin-left: 5rem;
+  padding: 1rem 1rem;
+}
+
+.productDetailImg {
+  height: 100%;
+  width: 50%;
+  object-fit: contain;
+  transition: 1s;
+}
+
+.productDetailContentDiv {
+  width: 50%;
+  padding: 4rem;
+}
+
+.productDetailBrand {
+  color: grey;
+}
+
+.productDetailContent2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productDetailContent2Left {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.dollarSign,
+.subPrice {
+  color: grey;
+}
+
+.mainPrice {
+  font-size: 1.5rem;
+}
+
+.productDetailContent2Right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.formDivContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: 2px solid #3636365f;
+  padding: 0.5rem;
+}
+
+.mainCartDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.cartProductDiv {
+  width: 50%;
+}
+.cartDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.imageDiv {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 40%;
+}
+
+.imageDiv img {
+  width: 50%;
+  object-fit: contain;
+}
+
+.contentDiv {
+  width: 60%;
+}
